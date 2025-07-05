@@ -2,7 +2,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "🔒 FuZys Script",
+    Name = "FuZys Script",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "OrionTest"
@@ -10,7 +10,7 @@ local Window = OrionLib:MakeWindow({
 
 -- Universal Tab
 local UniversalTab = Window:MakeTab({
-    Name = "🔧 Universal",
+    Name = "Universal",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -30,7 +30,7 @@ UniversalTab:AddSection({ Name = "Auto Rebirth" })
 
 -- AutoFarm Tab
 local FarmTab = Window:MakeTab({
-    Name = "⚡ AutoFarm",
+    Name = "AutoFarm",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
